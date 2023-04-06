@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{
+    background-color: deepskyblue;
+}
+h1{
+    color:blue;
+}
+#password{
+    background-color:dodgerblue;
+    color:white;
+    padding:10px;
+    font-size:18px;
+    width:230px;
+    border: none;
+    outline: none;
+}
+#tick, #scroll{
+    font-size: 29px;
+    color:greenyellow;
+    display: none;
+    
+}
+#warning{
+    border:1px solid white;
+    width:230px;
+    height:auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 9px;
+    display: none;
+}
+#upper, #lower, #num, #clength{
+    color:white;
+    font-family: calibri;
+    display: none;
+}

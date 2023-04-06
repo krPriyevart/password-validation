@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Password validation </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
+</head>
+<body>
+<h1>Password</h1>
+    <input type="password" id="password" oninput="check()" onclick="visible()" /> <i class="fa fa-check" id="tick"></i><i class="fa fa-spinner fa-spin fa-3x fa-fw" id="scroll"></i><br>
+    Show password <input type="checkbox" id="checkbox" onclick="tick()">
+    <div id="warning">
+    <p id="upper">must include uppercase</p>
+    <p id="lower">must include lowercase</p>
+    <p id="num">must include number</p>
+        
+        
+    </div>
+
+  </body>
+</html>
